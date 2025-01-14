@@ -1,0 +1,13 @@
+
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# Find dependencies
+find_dependency(Eigen3 CONFIG)
+
+# Import targets
+include("${CMAKE_CURRENT_LIST_DIR}/ProjectATargets.cmake")
+
+check_required_components(ProjectA)
+

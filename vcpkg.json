@@ -1,0 +1,17 @@
+
+{
+    "name": "project-a",
+    "version": "1.0.0",
+    "dependencies": [
+        {
+            "name": "eigen3",
+            "version>=": "3.4.0"
+        },
+        {
+            "name": "fmt",
+            "version>=": "10.0.0"
+        }
+    ],
+    "builtin-baseline": "c8696863d371ab7f46e213d8f5ca923c4aef2a00"
+}
+
